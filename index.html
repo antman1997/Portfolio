@@ -7,31 +7,48 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <script src="https://kit.fontawesome.com/0bdf015832.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!--this is the navbar-->
-  <nav class="navbar has-shadow is-primary">
-  <!--logo/brand-->
-    <div class="navbar-brand">
-      <h1 class="title has-text-white">Anthonee's Coding Gallery</h1>
-
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
+  <section class="hero is-primary is-small">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <header class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+              <p class="title">Anthonee's Coding Gallery</p>
+            </a>
+            <span class="navbar-burger" data-target="navbarMenuHeroC">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroC" class="navbar-menu is-active has-text-weight-bold">
+            <div class="navbar-end">
+              <a class="navbar-item">
+                About Me
+              </a>
+              <a class="navbar-item">
+                Github
+              </a>
+              <a class="navbar-item">
+                Contact Me
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
     </div>
-    <!--navbar links-->
-    <div class="navbar-menu is-active" id="nav-links">
-      <div class="navbar-end">
-        <a class="navbar-item">About Me</a>
-        <a class="navbar-item">Github</a>
-        <a class="navbar-item">Contact Me</a>
-      </div>
-    </div>
-  </nav>
-
+  </section>
+  <!--section that has info about me-->
+<div class="block has-text-centered">
+  <h1 class="title">Who I am</h1>
+  <p class="">This will act as a placeholder for the time being.</p>
+</div>
 
 <script src="index.js"></script>
 </body>
