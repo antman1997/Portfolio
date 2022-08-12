@@ -12,43 +12,88 @@
 
 <body>
   <!--this is the navbar-->
-  <section class="hero is-primary is-small">
+  <section class="hero is-primary is-halfheight">
     <!-- Hero head: will stick at the top -->
     <div class="hero-head">
-      <header class="navbar">
+      <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item">
               <p class="title">Anthonee's Coding Gallery</p>
             </a>
-            <span class="navbar-burger" data-target="navbarMenuHeroC">
+            <span class="navbar-burger" data-target="navbarMenuHeroA">
               <span></span>
               <span></span>
               <span></span>
             </span>
           </div>
-          <div id="navbarMenuHeroC" class="navbar-menu is-active has-text-weight-bold">
+          <div id="navbarMenuHeroA" class="navbar-menu">
             <div class="navbar-end">
+              <a class="navbar-item is-active">
+                Home
+              </a>
               <a class="navbar-item">
                 About Me
               </a>
               <a class="navbar-item">
-                Github
-              </a>
-              <a class="navbar-item">
                 Contact Me
               </a>
+              <span class="navbar-item">
+                <a class="button is-primary is-inverted">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Github</span>
+                </a>
+              </span>
             </div>
           </div>
         </div>
-      </header>
+      </nav>
+    </div>
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <p class="title">
+          Image here
+        </p>
+      </div>
     </div>
   </section>
-  <!--section that has info about me-->
-<div class="block has-text-centered">
-  <h1 class="title">Who I am</h1>
-  <p class="">I love to code. Learning and writing code is a passion of mine. I think it is very fascinating to see product that you have developed and see people interact with it. I am very hard working when it comes </p>
+<!--About me information-->
+<section class="section is-primary is-medium">
+  <div class="box">
+    <h1 class="title">About Me</h1>
+    <h2 class="subtitle">
+      I became a fullstack web developer to pursue my passion. I love to create and innovate. Doing so, this has allowed me
+      to help others in ways I never thought I would be able to. To showcase some of my hardwork and dedication to pursuing
+      this career, here are some of the projects I have done.</h2>
+  </div>
+</section>
+<!--where I will be displaying my work-->
+<div class="box has-text-centered">
+  <div class="columns">
+    <div class="column">
+      <div class="notification">
+      M.E.A.N Project
+      </div>
+    </div>
+    <div class="column">
+      <div class="notification">
+      Second column
+      </div>
+    </div>
+    <div class="column">
+      <div class="notification">
+      Third column
+      </div>
+    </div>
+  </div>
 </div>
+<!--Contact section-->
+<section class="section">
+  <input class="input is-rounded is-hovered" type="text" placeholder="Rounded input">
+</section>
 
 <script src="index.js"></script>
 </body>
