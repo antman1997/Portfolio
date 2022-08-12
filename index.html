@@ -12,7 +12,7 @@
 
 <body>
   <!--this is the navbar-->
-  <section class="hero is-primary is-halfheight">
+  <section class="hero is-primary is-medium">
     <!-- Hero head: will stick at the top -->
     <div class="hero-head">
       <nav class="navbar">
@@ -30,13 +30,28 @@
           <div id="navbarMenuHeroA" class="navbar-menu">
             <div class="navbar-end">
               <a class="navbar-item is-active">
-                Home
+                <span class="icon-text">
+                  <span class="icon">
+                    <i class="fas fa-home"></i>
+                  </span>
+                  <span>Home</span>
+                </span>
               </a>
               <a class="navbar-item">
-                About Me
+                <span class="icon-text">
+                  <span class="icon">
+                    <i class="fa-solid fa-person-digging"></i>
+                  </span>
+                  <span>Projects</span>
+                </span>
               </a>
               <a class="navbar-item">
-                Contact Me
+                <span class="icon-text">
+                  <span class="icon">
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                  </span>
+                  <span>Contact Me</span>
+                </span>
               </a>
               <span class="navbar-item">
                 <a class="button is-primary is-inverted">
@@ -61,41 +76,52 @@
     </div>
   </section>
 <!--About me information-->
-<section class="section is-primary is-medium">
-  <div class="box">
-    <h1 class="title">About Me</h1>
-    <h2 class="subtitle">
+<section class="section has-text-centered">
+  <article class="message is-primary">
+    <div class="message-header">
+      <h1 class="title">About Me</h1>
+   </div>
+    <div class="message-body">
       I became a fullstack web developer to pursue my passion. I love to create and innovate. Doing so, this has allowed me
       to help others in ways I never thought I would be able to. To showcase some of my hardwork and dedication to pursuing
-      this career, here are some of the projects I have done.</h2>
-  </div>
+      this career, here are some of the projects I have done.
+    </div>
+  </article>
 </section>
 <!--where I will be displaying my work-->
-<div class="box has-text-centered">
-  <div class="columns">
-    <div class="column">
-      <div class="notification">
+<div class="container">
+  <div class="columns has-text-centered">
+    <div class="column is-6">
+      <div class="notification is-primary">
       M.E.A.N Project
       </div>
     </div>
-    <div class="column">
-      <div class="notification">
+    <div class="column is-6">
+      <div class="notification is-primary">
       Second column
-      </div>
-    </div>
-    <div class="column">
-      <div class="notification">
-      Third column
       </div>
     </div>
   </div>
 </div>
 <!--Contact section-->
 <section class="section">
-  <input class="input is-rounded is-hovered" type="text" placeholder="Rounded input">
+  <div class="control">
+    <input class="input is-hovered is-rounded" type="email" placeholder="email">
+  </div>
 </section>
 
 <script src="index.js"></script>
 </body>
 
 </html>
+
+
+<!--<section class="section is-primary is-medium">
+  <div class="box">
+    <h1 class="title has-text-centered">About Me</h1>
+    <h2 class="subtitle is-5">
+      I became a fullstack web developer to pursue my passion. I love to create and innovate. Doing so, this has allowed me
+      to help others in ways I never thought I would be able to. To showcase some of my hardwork and dedication to pursuing
+      this career, here are some of the projects I have done.</h2>
+  </div>
+</section>-->
